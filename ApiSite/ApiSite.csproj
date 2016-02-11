@@ -158,7 +158,16 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\IService\IService.csproj">
+      <Project>{d278fd74-7fc4-4146-8844-c9e517a196bd}</Project>
+      <Name>IService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BLL\Service\Service.csproj">
+      <Project>{569d077a-6f98-4014-b8bb-ee4ddb0d166a}</Project>
+      <Name>Service</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

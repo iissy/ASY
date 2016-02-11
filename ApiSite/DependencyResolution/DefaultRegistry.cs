@@ -27,6 +27,7 @@ namespace ApiSite.DependencyResolution {
                 scan => {
                     scan.TheCallingAssembly();
                     scan.WithDefaultConventions();
+                    scan.AssembliesFromApplicationBaseDirectory();
                 });
             //For<IExample>().Use<Example>();
         }
