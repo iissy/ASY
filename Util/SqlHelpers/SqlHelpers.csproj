@@ -48,7 +48,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Convertor.cs" />
+    <Compile Include="DBFactory.cs" />
+    <Compile Include="ParameterObject.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlHelpers.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

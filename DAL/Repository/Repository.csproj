@@ -43,6 +43,12 @@
     <Compile Include="ASYRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Util\SqlHelpers\SqlHelpers.csproj">
+      <Project>{646f75ed-4930-4500-b99c-3f7127746715}</Project>
+      <Name>SqlHelpers</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
