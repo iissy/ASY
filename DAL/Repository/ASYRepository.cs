@@ -5,9 +5,9 @@ namespace ASY.Iissy.DAL.Repository
 {
     public static class ASYRepository
     {
-        public static object Fun()
+        public static string Fun()
         {
-            return SqlHelpers.ExecuteScalar(null, "");
+            return "Hello World!";//SqlHelpers.ExecuteScalar(null, "");
         }
     }
 }

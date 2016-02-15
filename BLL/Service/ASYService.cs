@@ -10,9 +10,9 @@ namespace ASY.Iissy.BLL.Service
 {
     public class ASYService : IASYService
     {
-        public void Fun()
+        public string Fun()
         {
-            ASYRepository.Fun();
+            return ASYRepository.Fun();
         }
     }
 }

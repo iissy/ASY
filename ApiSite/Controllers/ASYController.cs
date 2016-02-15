@@ -8,6 +8,7 @@ using ASY.Iissy.BLL.IService;
 
 namespace ApiSite.Controllers
 {
+    [RoutePrefix("ASY")]
     public class ASYController : ApiController
     {
         private IASYService ASYService;
@@ -16,10 +17,11 @@ namespace ApiSite.Controllers
             this.ASYService = ASYService;
         }
 
+        [Route("Fun2")]
         [HttpGet]
-        public void Fun()
+        public string Fun()
         {
-            this.ASYService.Fun();
+            return this.ASYService.Fun();
         }
     }
 }

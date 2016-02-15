@@ -8,6 +8,6 @@ namespace ASY.Iissy.BLL.IService
 {
     public interface IASYService
     {
-        void Fun();
+        string Fun();
     }
 }
