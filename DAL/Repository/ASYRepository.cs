@@ -1,12 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using ASY.Iissy.Util.SqlHelpers;
 
 namespace ASY.Iissy.DAL.Repository
 {
     public static class ASYRepository
     {
+        public static object Fun()
+        {
+            return SqlHelpers.ExecuteScalar(null, "");
+        }
     }
 }

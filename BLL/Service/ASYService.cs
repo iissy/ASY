@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ASY.Iissy.BLL.IService;
+using ASY.Iissy.DAL.Repository;
 
 namespace ASY.Iissy.BLL.Service
 {
@@ -11,7 +12,7 @@ namespace ASY.Iissy.BLL.Service
     {
         public void Fun()
         {
-            Console.WriteLine("Hello World!");
+            ASYRepository.Fun();
         }
     }
 }
