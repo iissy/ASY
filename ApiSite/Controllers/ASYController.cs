@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
+﻿using System.Collections.Generic;
 using System.Web.Http;
 using ASY.Iissy.BLL.IService;
+using ASY.Iissy.Model.Entities;
 
 namespace ApiSite.Controllers
 {
@@ -18,30 +15,30 @@ namespace ApiSite.Controllers
 
         [Route]
         [HttpGet]
-        public string Index()
+        public IEnumerable<Article> Index()
         {
-            return this.ASYService.Fun();
+            return this.ASYService.Fun(33);
         }
 
         [Route("fun")]
         [HttpGet]
-        public string fun()
+        public IEnumerable<Article> fun()
         {
-            return this.ASYService.Fun();
+            return this.ASYService.Fun(66);
         }
 
         [Route("{user}")]
         [HttpGet]
-        public string my(string user)
+        public IEnumerable<Article> my(string user)
         {
-            return this.ASYService.Fun();
+            return this.ASYService.Fun(88);
         }
 
         [Route("reg")]
         [HttpGet]
-        public string reg()
+        public IEnumerable<Article> reg()
         {
-            return this.ASYService.Fun();
+            return this.ASYService.Fun(99);
         }
     }
 }

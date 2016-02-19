@@ -1,18 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using ASY.Iissy.BLL.IService;
 using ASY.Iissy.DAL.Repository;
+using ASY.Iissy.Model.Entities;
 
 namespace ASY.Iissy.BLL.Service
 {
     public class ASYService : IASYService
     {
-        public string Fun()
+        public IEnumerable<Article> Fun(int catid)
         {
-            return ASYRepository.Fun();
+            return ASYRepository.Fun(catid);
         }
     }
 }

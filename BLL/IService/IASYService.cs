@@ -1,13 +1,10 @@
-﻿using System;
+﻿using ASY.Iissy.Model.Entities;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ASY.Iissy.BLL.IService
 {
     public interface IASYService
     {
-        string Fun();
+        IEnumerable<Article> Fun(int catid);
     }
 }

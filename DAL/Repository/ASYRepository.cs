@@ -1,13 +1,14 @@
-﻿using System;
+﻿using System.Collections.Generic;
 using ASY.Iissy.Util.SqlHelpers;
+using ASY.Iissy.Model.Entities;
 
 namespace ASY.Iissy.DAL.Repository
 {
     public static class ASYRepository
     {
-        public static string Fun()
+        public static IEnumerable<Article> Fun(int catid)
         {
-            return "Hello World!";//SqlHelpers.ExecuteScalar(null, "");
+            return SqlHelpers.ExecuteEntity<Article>(null, "MyProc", catid);
         }
     }
 }

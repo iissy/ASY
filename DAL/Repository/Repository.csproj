@@ -44,6 +44,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Model\Entities\Entities.csproj">
+      <Project>{ac6c5770-64ae-40a4-b988-824c4fa18537}</Project>
+      <Name>Entities</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Util\SqlHelpers\SqlHelpers.csproj">
       <Project>{646f75ed-4930-4500-b99c-3f7127746715}</Project>
       <Name>SqlHelpers</Name>
