@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using ASY.Iissy.BLL.IService;
-using ASY.Iissy.DAL.Repository;
 using ASY.Iissy.Model.Entities;
+using ASY.Iissy.Caching.CachedItem;
 
 namespace ASY.Iissy.BLL.Service
 {
@@ -9,7 +9,7 @@ namespace ASY.Iissy.BLL.Service
     {
         public IEnumerable<Article> Fun(int catid)
         {
-            return ASYRepository.Fun(catid);
+            return ASYItem.Get(catid);
         }
     }
 }

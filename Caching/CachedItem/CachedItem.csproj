@@ -40,7 +40,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ASYItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DAL\Repository\Repository.csproj">
+      <Project>{86129e5f-8d64-4069-8bf2-3f6a9ee389be}</Project>
+      <Name>Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Model\Entities\Entities.csproj">
+      <Project>{ac6c5770-64ae-40a4-b988-824c4fa18537}</Project>
+      <Name>Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cors\Cors.csproj">
+      <Project>{cb8c7705-538c-4a51-8bde-50b8aebed9a2}</Project>
+      <Name>Cors</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

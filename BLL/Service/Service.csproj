@@ -44,6 +44,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Caching\CachedItem\CachedItem.csproj">
+      <Project>{a6b61190-3c4a-4482-90e8-8beedf9b5f00}</Project>
+      <Name>CachedItem</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Caching\Cors\Cors.csproj">
+      <Project>{cb8c7705-538c-4a51-8bde-50b8aebed9a2}</Project>
+      <Name>Cors</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\DAL\Repository\Repository.csproj">
       <Project>{86129e5f-8d64-4069-8bf2-3f6a9ee389be}</Project>
       <Name>Repository</Name>
