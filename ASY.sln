@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{81D126F0-B666-48FD-8083-362607F1B298}"
 EndProject
@@ -32,6 +32,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiSite", "ApiSite\ApiSite.csproj", "{0A48F9C4-6BE5-4344-AC9A-9CB43C5200D9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cors", "Caching\Cors\Cors.csproj", "{CB8C7705-538C-4A51-8BDE-50B8AEBED9A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiscHelpers", "Util\MiscHelpers\MiscHelpers.csproj", "{D33EA2A5-D3D6-4F81-BBAA-8EE998252902}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{CB8C7705-538C-4A51-8BDE-50B8AEBED9A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB8C7705-538C-4A51-8BDE-50B8AEBED9A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB8C7705-538C-4A51-8BDE-50B8AEBED9A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D33EA2A5-D3D6-4F81-BBAA-8EE998252902}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D33EA2A5-D3D6-4F81-BBAA-8EE998252902}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D33EA2A5-D3D6-4F81-BBAA-8EE998252902}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D33EA2A5-D3D6-4F81-BBAA-8EE998252902}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -88,6 +94,7 @@ Global
 		{FA4548EA-FCB6-4538-A4EB-0FF8D9EB1BE8} = {2DD72FDD-A1BE-44B9-BA1C-504039EE1C9F}
 		{646F75ED-4930-4500-B99C-3F7127746715} = {8F0EFFC7-5314-4AEC-9DA3-50BF2999CFAD}
 		{CB8C7705-538C-4A51-8BDE-50B8AEBED9A2} = {6951E8FF-6D9A-4549-AB68-0E7DA2F8ED09}
+		{D33EA2A5-D3D6-4F81-BBAA-8EE998252902} = {8F0EFFC7-5314-4AEC-9DA3-50BF2999CFAD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
