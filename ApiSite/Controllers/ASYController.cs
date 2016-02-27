@@ -15,9 +15,9 @@ namespace ApiSite.Controllers
 
         [Route]
         [HttpGet]
-        public IEnumerable<Article> Index()
+        public Article Index()
         {
-            return this.ASYService.Fun(33);
+            return new Article();
         }
 
         [Route("fun")]
