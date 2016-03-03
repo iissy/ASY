@@ -34,11 +34,18 @@ namespace ApiSite.Controllers
             return this.ASYService.Fun(88);
         }
 
-        [Route("reg")]
+        [Route("reg/{who}")]
         [HttpGet]
-        public IEnumerable<Article> reg()
+        public IEnumerable<Article> reg(string who)
         {
             return this.ASYService.Fun(99);
+        }
+
+        [Route("{user}/{list}")]
+        [HttpGet]
+        public IEnumerable<Article> list(string user, string list)
+        {
+            return this.ASYService.Fun(88);
         }
     }
 }
