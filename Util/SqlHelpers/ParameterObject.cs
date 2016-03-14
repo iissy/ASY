@@ -12,13 +12,7 @@ namespace ASY.Iissy.Util.SqlHelpers
         }
 
         IList<IDataParameter> parameters;
-        public IList<IDataParameter> Parameters
-        {
-            get
-            {
-                return parameters;
-            }
-        }
+        public IList<IDataParameter> Parameters => parameters;
 
         public void AddInParameter(string parameterName, SqlDbType dbType, object value)
         {
