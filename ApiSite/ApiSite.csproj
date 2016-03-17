@@ -178,6 +178,10 @@
       <Project>{ac6c5770-64ae-40a4-b988-824c4fa18537}</Project>
       <Name>Entities</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Util\UploadHelpers\UploadHelpers.csproj">
+      <Project>{2269482e-8d37-4ab3-8690-7c6abd3048c1}</Project>
+      <Name>UploadHelpers</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
