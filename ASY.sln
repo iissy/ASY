@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiscHelpers", "Util\MiscHel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UploadHelpers", "Util\UploadHelpers\UploadHelpers.csproj", "{2269482E-8D37-4AB3-8690-7C6ABD3048C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSite", "WebSite\WebSite.csproj", "{15F78958-AC3B-4124-9EA3-28C53E4AE13C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{2269482E-8D37-4AB3-8690-7C6ABD3048C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2269482E-8D37-4AB3-8690-7C6ABD3048C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2269482E-8D37-4AB3-8690-7C6ABD3048C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15F78958-AC3B-4124-9EA3-28C53E4AE13C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15F78958-AC3B-4124-9EA3-28C53E4AE13C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15F78958-AC3B-4124-9EA3-28C53E4AE13C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15F78958-AC3B-4124-9EA3-28C53E4AE13C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
