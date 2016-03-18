@@ -8,6 +8,12 @@ namespace WebSite.Controllers
 {
     public class ASYController : Controller
     {
+        [Route()]
+        public ViewResult Index()
+        {
+            return View();
+        }
+
         [HttpPost]
         [Route("upload")]
         public void upload()
