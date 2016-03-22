@@ -1,0 +1,11 @@
+﻿div, span, body, a,td { margin:0;padding:0;font-size:14px;color:#616161; }
+body { background:#f1f1f1;margin-top:20px; }
+#mainPage {width:999px;overflow: auto;margin:0 auto 0 auto;background:#ffffff;border: 1px solid #ddd;}
+.left { float:left; }
+.item { width:199px;text-align:center;padding: 10px 0 10px 0; }
+.item:hover { background:#e0e0e0; }
+.leftboxline { border-left: 1px solid #ddd; }
+.rightboxline { border-right: 1px solid #ddd; }
+.topboxline { border-top: 1px solid #ddd; }
+.bottomboxline { border-bottom: 1px solid #ddd; }
+a,a:hover{ text-decoration:none;color:#126499; }
