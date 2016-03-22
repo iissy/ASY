@@ -142,6 +142,7 @@
     <Content Include="Config\ConnectionStrings.config" />
     <Content Include="Config\Features.config" />
     <Content Include="Config\log4net.config" />
+    <Content Include="Views\ASY\scroll.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

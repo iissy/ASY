@@ -45,5 +45,11 @@ namespace WebSite.Controllers
             Response.Write(JsonConvert.SerializeObject(upList));
             Response.End();
         }
+
+        [Route("scroll")]
+        public ViewResult scroll()
+        {
+            return View();
+        }
     }
 }
