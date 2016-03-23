@@ -13,20 +13,6 @@ namespace ApiSite.Controllers
             this.ASYService = ASYService;
         }
 
-        [Route]
-        [HttpGet]
-        public Article Index()
-        {
-            return new Article();
-        }
-
-        [Route("fun")]
-        [HttpGet]
-        public IEnumerable<Article> fun()
-        {
-            return this.ASYService.Fun(66);
-        }
-
         [Route("{user}")]
         [HttpGet]
         public IEnumerable<Article> my(string user)

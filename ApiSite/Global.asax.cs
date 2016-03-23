@@ -1,4 +1,5 @@
 ﻿using System.Web.Http;
+using System.Web.Routing;
 
 namespace ApiSite
 {
@@ -6,6 +7,7 @@ namespace ApiSite
     {
         protected void Application_Start()
         {
+            RouteConfig.RegisterRoutes(RouteTable.Routes);
             GlobalConfiguration.Configure(WebApiConfig.Register);
             GlobalConfiguration.Configuration.Formatters.XmlFormatter.SupportedMediaTypes.Clear();
         }
